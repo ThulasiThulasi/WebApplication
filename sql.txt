@@ -1,0 +1,4 @@
+use mydb;
+create table emp1(id int, name varchar(100),email varchar(20),password varchar(20),salary float,permission varchar(20) default 'user' );
+insert emp1 values(102,'Thulasi','Thulasi@gmail.com','Thulasi',40000.0, 'admin'); 
+select* from emp1;
